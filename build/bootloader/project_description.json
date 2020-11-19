@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Esp/components/bootloader/subproject",
+    "build_dir":          "C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/bootloader",
+    "config_file":        "C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.1-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "C:/Esp/components/efuse/Kconfig;C:/Esp/components/esp32/Kconfig;C:/Esp/components/esp_common/Kconfig;C:/Esp/components/log/Kconfig;C:/Esp/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "C:/Esp/components/bootloader/Kconfig.projbuild;C:/Esp/components/esptool_py/Kconfig.projbuild;C:/Esp/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "C:/Esp/components/bootloader", "C:/Esp/components/bootloader_support", "C:/Esp/components/efuse", "C:/Esp/components/esp32", "C:/Esp/components/esp_common", "C:/Esp/components/esp_rom", "C:/Esp/components/esptool_py", "C:/Esp/components/log", "C:/Esp/components/bootloader/subproject/main", "C:/Esp/components/bootloader/subproject/components/micro-ecc", "C:/Esp/components/partition_table", "C:/Esp/components/soc", "C:/Esp/components/spi_flash", "C:/Esp/components/xtensa", "" ]
+}

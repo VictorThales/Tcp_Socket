@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/CMakeFiles/bootloader
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/CMakeFiles/bootloader.rule
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/CMakeFiles/bootloader-complete.rule
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

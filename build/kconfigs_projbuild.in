@@ -1,0 +1,6 @@
+source "C:/Esp/components/app_update/Kconfig.projbuild"
+source "C:/Esp/components/bootloader/Kconfig.projbuild"
+source "C:/Esp/components/esptool_py/Kconfig.projbuild"
+source "C:/Esp/components/partition_table/Kconfig.projbuild"
+source "C:/Esp/examples/IoTAplicada/esp-idf-lib/examples/tcp_server_socket/main/Kconfig.projbuild"
+source "C:/Esp/examples/IoTAplicada/esp-idf-lib/components/protocol_examples_common/Kconfig.projbuild"
