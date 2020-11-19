@@ -39,7 +39,7 @@ idf.py menuconfig
 
 #### Acesse `Example Connection Configuration` .
 
-![Redeconfig](https://user-images.githubusercontent.com/56330822/99082473-f4fbbb80-25a2-11eb-8547-e671b19ec0ef.PNG)
+![Redeconfig](https://media.discordapp.net/attachments/689821241023922194/778959451876884520/unknown.png?width=845&height=475)
 
 #### Configure o Nome de sua rede `WiFi SSID`. 
 #### Configure A Senha da sua rede `WiFi Password`.
@@ -56,33 +56,31 @@ idf.py -p PORT flash monitor
 
 #### Após rodar o comando a seguinte tela deve aparecer:
 
-![rodando](https://user-images.githubusercontent.com/56330822/99083292-190bcc80-25a4-11eb-8d32-2093400483a2.PNG)
+![rodando](https://media.discordapp.net/attachments/689821241023922194/778960988601843732/unknown.png?width=845&height=475)
 
-## Otimo! O servidor está no Ar.
+## Conectado!
 
-#### Em vermelho na imagem, visualize o `IP` que o servidor obteve e em sequencia a `Porta` que definimos. Observe no seu console os dados atribuidos, e os guarde, que iremos utilizar em breve.
+#### Localize o `IP` que o servidor obteve e em sequência a `Porta` que definimos, pois será usado para estabelecer a conexão com o Cliente
 
-### Estabelecer uma conxão Cliente/Servidor.
+#### Para estabelecer a conexão cliente/servidor foi usado o Realterm.
 
-#### Neste exemplo eu uso o Realterm, para estabelecer uma conexão cliente/server.
-Lembrando inicie primeiro o servidor para receber os dados solicitados pelo cliente (aplicativo).
+### Com o RealTerm aberto vá até a Aba `Port`.
 
-### Após baixar e instalar o realterm em seu dispositivo, execute-o.
-### Vá até a Aba `Port`. Mostrada na iamgem.
+![realterm1](https://media.discordapp.net/attachments/689821241023922194/778961622202449920/unknown.png?width=845&height=475)
 
-![realterm1](https://user-images.githubusercontent.com/56330822/99087159-355e3800-25a9-11eb-9d7c-0d2e6e77b8c4.PNG)
+### Na Aba Port. Prencha o campo `Port` com `IP:PORT` obtidos anteriormente no terminal. 
+Após isto Clique! em Open para fazer a conexão
 
-### Na Aba Port. Prencha o campo `Port` com `IP:PORT` obtidos anteriormente. Apos isto Click! em Change para aplicar as configuraçoes.
-### Ao lado, em Status os seguintes campos devem aparecer como vizualizados na imagem.
+## Conexão Cliente/Servidor estabelecida.
 
-## Pronto! A conexão Cliente/Server foi estabelecia.
+### Para testar o funcionamento pode enviar seus códigos ASCII ao servidor, como predefinidos antes, utilize `TEMP`, `UMID`, ou `DIST`.
 
-### Agora voce pode enviar seus codigos ASCII ao servidor. E receber as informaçoes requisitadas.
-### Exemplo de codigo `TEMP` e `DIST` enviados. Mostrados na imagem.
+### Exemplos dos comandos enviados.
 
-![req](https://user-images.githubusercontent.com/56330822/99088037-3cd21100-25aa-11eb-85b8-7390de8bc8fe.PNG)
+![req](https://media.discordapp.net/attachments/689821241023922194/778955507419185162/TEMP.png?width=845&height=475)
+![req](https://media.discordapp.net/attachments/689821241023922194/778955510145220618/umid.png?width=845&height=475)
+![req](https://media.discordapp.net/attachments/689821241023922194/778955494454460416/dist.png?width=845&height=475)
 
-### Agora voce mesmo pode enviar os codigos: `TEMP`, `DIST`, `UMID`, `LEDB` e `HELP` para obter respostas do servidor.
 
 ## Hardware montado
 
@@ -91,7 +89,5 @@ Lembrando inicie primeiro o servidor para receber os dados solicitados pelo clie
 
 ### Funcionamento(links abaixo).
 
-https://drive.google.com/file/d/1FW2UvrYbyrKgUVBmfQuviJEhruBpIOhX/view?usp=sharing
-https://drive.google.com/file/d/1FV6pgn5strIO8e3OTrx3VouHx9_sFR5Q/view?usp=sharing
 
 
