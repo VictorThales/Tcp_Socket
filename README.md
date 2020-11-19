@@ -35,7 +35,7 @@ idf.py menuconfig
 ![port](https://user-images.githubusercontent.com/56330822/99081795-190acd00-25a2-11eb-8f07-d66c372a836d.PNG)
 
 ### Configure a Porta `Port`, caso queira, ou  pode deixar a padrão que está executando na porta 3333.
-### Retorne a tela anterior.
+## Retorne a tela anterior.
 
 ### Acesse `Example Connection Configuration` .
 
@@ -73,7 +73,7 @@ Após isto Clique! em Open para fazer a conexão
 
 ## Conexão Cliente/Servidor estabelecida.
 
-## Para testar o funcionamento pode enviar seus códigos ASCII ao servidor, como predefinidos antes, utilize `TEMP`, `UMID`, ou `DIST`.
+# Para testar o funcionamento pode enviar seus códigos ASCII ao servidor, como predefinidos antes, utilize `TEMP`, `UMID`, ou `DIST`.
 
 ### Exemplos dos comandos enviados.
 
