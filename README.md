@@ -1,66 +1,23 @@
+<img alt="GoStack" src="https://lh6.googleusercontent.com/proxy/K5fmOf83OCmcXLL6A8C661JiY_kCgEehnEzR8zyhludeemsL9n4R3vq1Q2aQBN_Vvd1PucGHzvY21aQNl_mvkhHDVNTAeFlgTLxVWaAQ4_eX" />
 
-# TCP Server example
+# TCP Server UTDE(Umidade, Temperatura, Distancia, Estado)
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+O aplicativo desenvolvido cria um socket TCP com uma porta especificada e aguarda uma solicitação de conexão do cliente. Depois de aceitar a solicitação do cliente, a conexão entre o servidor e o cliente é estabelecida e o aplicativo aguarda os dados que serão enviados pelo cliente. Os dados enviados são processados como texto ASCII e retorna a resposta ao cliente cuja oque foi solicitado. Neste exemplo o cliente irá enviar TEMP, UMID ou DIST, e o aplicativo retornará os valores respectivos de cada sensor.
 
-The application creates a TCP socket with the specified port number and waits for a connection request from the client. After accepting a request from the client, connection between server and client is established and the application waits for some data to be received from the client. Received data are printed as ASCII text and retransmitted back to the client.
+## Antes de começar
 
-## How to use example
+### Verifique a versão do seu SDK.
+- [X] Algoritmo Desenvolvido com SDK Version ESP-IDF v4.1-dirty
+### Descompacte-o na pasta do seu SDK.
+- [X] Libs já incluidas e importadas neste diretorio.
+- Defina os pinos dos sensores no cabeçalho do projeto 
 
-In order to create TCP client that communicates with TCP server example, choose one of the following options.
-
-There are many host-side tools which can be used to interact with the UDP/TCP server/client. 
-One command line tool is [netcat](http://netcat.sourceforge.net) which can send and receive many kinds of packets. 
-Note: please replace `192.168.0.167 3333` with desired IPV4/IPV6 address (displayed in monitor console) and port number in the following command.
-
-In addition to those tools, simple Python scripts can be found under sockets/scripts directory. Every script is designed to interact with one of the examples.
-
-### TCP client using netcat
-```
-nc 192.168.0.167 3333
-```
-
-### Python scripts
-Script tcpclient.py contains configuration for port number, IP version (IPv4 or IPv6) and IP address that has to be altered to match the values used by the application. Example:
-
-```
-PORT = 3333;
-IP_VERSION = 'IPv4'
-IPV4 = '192.168.0.167'
-IPV6 = 'FE80::32AE:A4FF:FE80:5288'
-```
-
-## Hardware Required
-
-This example can be run on any commonly available ESP32 development board.
-
-## Configure the project
-
-```
-idf.py menuconfig
-```
-
-Set following parameters under Example Configuration Options:
-
-* Set `IP version` of the example to be IPV4 or IPV6.
-
-* Set `Port` number of the socket, that server example will create.
-
-Configure Wi-Fi or Ethernet under "Example Connection Configuration" menu. See "Establishing Wi-Fi or Ethernet Connection" section in [examples/protocols/README.md](../../README.md) for more details.
-
-## Build and Flash
-
-Build the project and flash it to the board, then run monitor tool to view serial output:
-
-```
-idf.py -p PORT flash monitor
-```
-
-(To exit the serial monitor, type ``Ctrl-]``.)
-
-See the Getting Started Guide for full steps to configure and use ESP-IDF to build projects.
+## Componentes
+Componentes utilizados: 
+1. ESP 32
+1. Sensor de temperatura DHT11
+1. Sensor ultrassônico HC-SR04
+1. Resistor 220 Ω
+1. Jumper ~~à gosto~~
 
 
-## Troubleshooting
-
-Start server first, to receive data sent from the client (application).
