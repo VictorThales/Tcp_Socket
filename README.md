@@ -26,24 +26,24 @@ Componentes utilizados:
 ```
 idf.py menuconfig
 ```
-#### Após rodar o comando a seguinte tela deve aparecer:
+### Após rodar o comando a seguinte tela deve aparecer:
 
 ![menuconfig](https://media.discordapp.net/attachments/689821241023922194/778958810760347648/Captura_de_tela_2020-11-19_091908.png?width=891&height=475)
 
-#### Acesse `Example Configuration` .
+### Acesse `Example Configuration` .
 
 ![port](https://user-images.githubusercontent.com/56330822/99081795-190acd00-25a2-11eb-8f07-d66c372a836d.PNG)
 
-#### Configure a Porta `Port`, caso queira, ou  pode deixar a padrão que está executando na porta 3333.
-#### Retorne a tela anterior.
+### Configure a Porta `Port`, caso queira, ou  pode deixar a padrão que está executando na porta 3333.
+### Retorne a tela anterior.
 
-#### Acesse `Example Connection Configuration` .
+### Acesse `Example Connection Configuration` .
 
 ![Redeconfig](https://media.discordapp.net/attachments/689821241023922194/778959451876884520/unknown.png?width=845&height=475)
 
-#### Configure o Nome de sua rede `WiFi SSID`. 
-#### Configure A Senha da sua rede `WiFi Password`.
-#### Apos os procedimentos. Salve as alteraçoes e Saia do menuconfig..
+### Configure o Nome de sua rede `WiFi SSID`. 
+### Configure A Senha da sua rede `WiFi Password`.
+### Apos os procedimentos. Salve as alteraçoes e Saia do menuconfig..
 
 ### Build and Flash
 
@@ -54,15 +54,15 @@ Com tudo configurado conforme passado nos passos acima, execute a ferramenta de 
 idf.py -p PORT flash monitor
 ```
 
-#### Após rodar o comando a seguinte tela deve aparecer:
+## Após rodar o comando a seguinte tela deve aparecer:
 
 ![rodando](https://media.discordapp.net/attachments/689821241023922194/778960988601843732/unknown.png?width=845&height=475)
 
-## Conectado!
+### Conectado!
 
-#### Localize o `IP` que o servidor obteve e em sequência a `Porta` que definimos, pois será usado para estabelecer a conexão com o Cliente
+## Localize o `IP` que o servidor obteve e em sequência a `Porta` que definimos, pois será usado para estabelecer a conexão com o Cliente
 
-#### Para estabelecer a conexão cliente/servidor foi usado o Realterm.
+### Para estabelecer a conexão cliente/servidor foi usado o Realterm.
 
 ### Com o RealTerm aberto vá até a Aba `Port`.
 
@@ -73,7 +73,7 @@ Após isto Clique! em Open para fazer a conexão
 
 ## Conexão Cliente/Servidor estabelecida.
 
-### Para testar o funcionamento pode enviar seus códigos ASCII ao servidor, como predefinidos antes, utilize `TEMP`, `UMID`, ou `DIST`.
+## Para testar o funcionamento pode enviar seus códigos ASCII ao servidor, como predefinidos antes, utilize `TEMP`, `UMID`, ou `DIST`.
 
 ### Exemplos dos comandos enviados.
 
@@ -82,10 +82,10 @@ Após isto Clique! em Open para fazer a conexão
 ![req](https://media.discordapp.net/attachments/689821241023922194/778955494454460416/dist.png?width=845&height=475)
 
 
-## Hardware montado
+### Montagem
 
-![1605657509003](https://user-images.githubusercontent.com/56330822/99466001-52349b80-291a-11eb-998a-e4559d3dead5.jpg)
-![1605657508995](https://user-images.githubusercontent.com/56330822/99466040-68daf280-291a-11eb-879b-badacaad7450.jpg)
+![1605657509003](https://media.discordapp.net/attachments/689821241023922194/778964352933036042/image0.jpg?width=356&height=475)
+![1605657508995](https://media.discordapp.net/attachments/689821241023922194/778964354690580480/image2.jpg?width=356&height=475)
 
 ### Funcionamento(links abaixo).
 
