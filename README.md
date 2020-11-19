@@ -22,7 +22,7 @@ Componentes utilizados:
 
 ### Inicialmente configure o seu projeto
 
-* Navegue até a pasta do projeto, com seu console do SDK (ESP-IDF Command Prompt) e rode o comando abaixo.
+* Navegue até a pasta do projeto, utilizando o console do SDK (ESP-IDF Command Prompt) e rode o comando abaixo.
 ```
 idf.py menuconfig
 ```
@@ -44,7 +44,7 @@ Retorne a tela anterior.
 
 ### Configure o Nome de sua rede `WiFi SSID`. 
 ### Configure A Senha da sua rede `WiFi Password`.
-### Apos os procedimentos. Salve as alteraçoes e Saia do menuconfig..
+### Após os procedimentos. Salve as alteraçoes e saia do menuconfig..
 
 ### Build and Flash
 
