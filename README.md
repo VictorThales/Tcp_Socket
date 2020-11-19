@@ -28,7 +28,7 @@ idf.py menuconfig
 ```
 #### Após rodar o comando a seguinte tela deve aparecer:
 
-![menuconfig](https://drive.google.com/file/d/1WO8gpZSzAVsHSBAyMAmAAFNtqJMMEwb3/view?usp=sharing)
+![menuconfig](https://media.discordapp.net/attachments/689821241023922194/778958810760347648/Captura_de_tela_2020-11-19_091908.png?width=891&height=475)
 
 #### Acesse `Example Configuration` .
 
