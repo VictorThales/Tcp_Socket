@@ -35,6 +35,7 @@ idf.py menuconfig
 ![port](https://user-images.githubusercontent.com/56330822/99081795-190acd00-25a2-11eb-8f07-d66c372a836d.PNG)
 
 ### Configure a Porta `Port`, caso queira, ou  pode deixar a padrão que está executando na porta 3333.
+
 ## Retorne a tela anterior.
 
 ### Acesse `Example Connection Configuration` .
@@ -86,8 +87,4 @@ Após isto Clique! em Open para fazer a conexão
 
 ![1605657509003](https://media.discordapp.net/attachments/689821241023922194/778964352933036042/image0.jpg?width=356&height=475)
 ![1605657508995](https://media.discordapp.net/attachments/689821241023922194/778964354690580480/image2.jpg?width=356&height=475)
-
-### Funcionamento(links abaixo).
-
-
 
