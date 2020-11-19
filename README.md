@@ -36,7 +36,7 @@ idf.py menuconfig
 
 ### Configure a Porta `Port`, caso queira, ou  pode deixar a padrão que está executando na porta 3333.
 
-## Retorne a tela anterior.
+Retorne a tela anterior.
 
 ### Acesse `Example Connection Configuration` .
 
