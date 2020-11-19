@@ -1,8 +1,8 @@
 <img alt="GoStack" src="https://lh6.googleusercontent.com/proxy/K5fmOf83OCmcXLL6A8C661JiY_kCgEehnEzR8zyhludeemsL9n4R3vq1Q2aQBN_Vvd1PucGHzvY21aQNl_mvkhHDVNTAeFlgTLxVWaAQ4_eX" />
 
-# TCP Server UTDE(Umidade, Temperatura, Distancia, Estado)
+# TCP Server (Umidade, Temperatura, Distancia)
 
-O aplicativo desenvolvido cria um socket TCP com uma porta especificada e aguarda uma solicitação de conexão do cliente. Depois de aceitar a solicitação do cliente, a conexão entre o servidor e o cliente é estabelecida e o aplicativo aguarda os dados que serão enviados pelo cliente. Os dados enviados são processados como texto ASCII e retorna a resposta ao cliente cuja oque foi solicitado. Neste exemplo o cliente irá enviar TEMP, UMID ou DIST, e o aplicativo retornará os valores respectivos de cada sensor.
+O aplicativo desenvolvido pelos alunos Victor Thales Pereira de Limas e Gustavo Sebastião Scheffer cria um socket TCP com uma porta especificada e aguarda uma solicitação de conexão do cliente. Depois de aceitar a solicitação do cliente, a conexão entre o servidor e o cliente é estabelecida e o aplicativo aguarda os dados que serão enviados pelo cliente. Os dados enviados são processados como texto ASCII e retorna a resposta ao cliente cuja oque foi solicitado. Neste exemplo o cliente irá enviar TEMP, UMID ou DIST, e o aplicativo retornará os valores respectivos de cada sensor.
 
 ## Antes de começar
 
@@ -55,13 +55,13 @@ Com tudo configurado conforme passado nos passos acima, execute a ferramenta de 
 idf.py -p PORT flash monitor
 ```
 
-## Após rodar o comando a seguinte tela deve aparecer:
+### Após rodar o comando a seguinte tela deve aparecer:
 
 ![rodando](https://media.discordapp.net/attachments/689821241023922194/778960988601843732/unknown.png?width=845&height=475)
 
 ### Conectado!
 
-## Localize o `IP` que o servidor obteve e em sequência a `Porta` que definimos, pois será usado para estabelecer a conexão com o Cliente
+#### Localize o `IP` que o servidor obteve e em sequência a `Porta` que definimos, pois será usado para estabelecer a conexão com o Cliente
 
 ### Para estabelecer a conexão cliente/servidor foi usado o Realterm.
 
@@ -72,9 +72,9 @@ idf.py -p PORT flash monitor
 ### Na Aba Port. Prencha o campo `Port` com `IP:PORT` obtidos anteriormente no terminal. 
 Após isto Clique! em Open para fazer a conexão
 
-## Conexão Cliente/Servidor estabelecida.
+### Conexão Cliente/Servidor estabelecida.
 
-# Para testar o funcionamento pode enviar seus códigos ASCII ao servidor, como predefinidos antes, utilize `TEMP`, `UMID`, ou `DIST`.
+### Para testar o funcionamento pode enviar seus códigos ASCII ao servidor, como predefinidos antes, utilize `TEMP`, `UMID`, ou `DIST`.
 
 ### Exemplos dos comandos enviados.
 
