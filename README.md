@@ -88,3 +88,5 @@ Após isto Clique! em Open para fazer a conexão
 ![1605657509003](https://media.discordapp.net/attachments/689821241023922194/778964352933036042/image0.jpg?width=356&height=475)
 ![1605657508995](https://media.discordapp.net/attachments/689821241023922194/778964354690580480/image2.jpg?width=356&height=475)
 
+Documento baseado no Readme dos acadêmicos Marcelo e Arthur -> [Readme](https://github.com/Marcelo-C0D3/TCP_SERVER_UTDE_Marcelo_Artur/blob/master/README.md)
+
